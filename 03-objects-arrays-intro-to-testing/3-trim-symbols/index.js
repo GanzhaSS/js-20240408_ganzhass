@@ -27,7 +27,7 @@ function trimSymbols(string, size) {
 
 // trimSymbols("x", 3); // 'xxx' - ничего не удалили т.к разрешено 3 символа подряд
 
-console.log(trimSymbols("ффффффффоооооooooooo", 3)); // 'xx' - удалили один символ
+console.log(trimSymbols("ффффффффууууууууоооооooooooo", 4)); // 'xx' - удалили один символ
 // trimSymbols("xxx", 1); // 'x'
 
 // trimSymbols("xxxaaaaa", 2); // 'xxaa'
